@@ -14,3 +14,12 @@ package: build
 
 clean:
 	rm -f $(WASM_FILE) $(PLUGIN_NAME).ndp
+
+release:
+	@if [[ ! "${V}" =~ ^[0-9]+\.[0-9]+\.[0-9]+.*$$ ]]; then echo "Usage: make release V=X.X.X"; exit 1; fi
+	go mod tidy
+	@if [ -n "`git status -s`" ]; then echo "\n\nThere are pending changes. Please commit or stash first"; exit 1; fi
+	make pre-push
+	git tag v${V}
+	git push origin v${V} --no-verify
+.PHONY: release
