@@ -1,4 +1,5 @@
 {
+  "$schema": "https://raw.githubusercontent.com/navidrome/navidrome/refs/heads/master/plugins/manifest-schema.json",
   "name": "Discord Rich Presence",
   "author": "Navidrome Team",
   "version": "0.1.0",
