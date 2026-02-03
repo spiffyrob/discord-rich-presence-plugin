@@ -1,5 +1,8 @@
 # Discord Rich Presence Plugin
 
+[![Build](https://github.com/navidrome/discord-rich-presence-plugin/actions/workflows/build.yml/badge.svg)](https://github.com/navidrome/discord-rich-presence-plugin/actions/workflows/build.yml)
+[![Latest](https://img.shields.io/github/v/release/navidrome/discord-rich-presence-plugin)](https://github.com/navidrome/discord-rich-presence-plugin/releases/latest/download/discord-rich-presence.ndp)
+
 This plugin integrates Navidrome with Discord Rich Presence, displaying your currently playing track in your Discord status. It demonstrates how a Navidrome plugin can maintain real-time connections to external services while remaining completely stateless. Based on the [Navicord](https://github.com/logixism/navicord) project.
 
 **⚠️ WARNING: This plugin requires storing Discord user tokens, which may violate Discord's Terms of Service. Use at your own risk.**
