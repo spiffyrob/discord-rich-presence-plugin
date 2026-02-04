@@ -27,6 +27,10 @@ Based on the [Navicord](https://github.com/logixism/navicord) project.
 2. Configure the plugin in **Settings > Plugins > Discord Rich Presence**
 3. Enable the plugin
 
+Important: Remember to configure your account in Discord to share activity status with others: 
+- Go to **User Settings > Activity Privacy**
+- Enable **Share my activity**
+
 There is no need to restart Navidrome; Check the logs for any errors during initialization.
 
 ## How It Works
